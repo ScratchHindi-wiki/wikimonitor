@@ -1,6 +1,6 @@
 <?php
 //THIS FILE IS NO LONGER USED. ALL FUNCTIONALITY IS NOW IN main-new.php.
-define('WIKI_API_URL', 'https://wiki.scratch.mit.edu/w/api.php');
+define('WIKI_API_URL', 'https://test.scratch-wiki.info/wiki/');
 function get_page_contents($title) {
 	$data = '';
 	while ($data == '') {
